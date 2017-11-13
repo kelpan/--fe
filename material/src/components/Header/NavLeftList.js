@@ -38,35 +38,20 @@ class NavLeftList extends React.Component {
                     >
             <MenuItem
               className="header-icon-dropdown-item"
-              leftIcon={<i className="material-icons">mail_outline</i>}
-              primaryText="New mail from Susan"
+              leftIcon={<i className="material-icons">assignment</i>}
+              primaryText="New Projects Added"
               secondaryText={<span className="text-muted">5min ago</span>}
                         />
-            <MenuItem
-              className="header-icon-dropdown-item"
-              leftIcon={<i className="material-icons">mail_outline</i>}
-              primaryText="New mail from John"
-              secondaryText={<span className="text-muted">1h ago</span>}
-                        />
+
             <Divider />
             <MenuItem
               className="header-icon-dropdown-item"
               leftIcon={<i className="material-icons">chat_bubble_outline</i>}
-              primaryText="Message from Anna"
-              secondaryText={<span className="text-muted">5min ago</span>}
+              primaryText="New Discussion"
+              secondaryText={<span className="text-muted">30min ago</span>}
                         />
-            <MenuItem
-              className="header-icon-dropdown-item"
-              leftIcon={<i className="material-icons">chat_bubble_outline</i>}
-              primaryText="Message from Jane"
-              secondaryText={<span className="text-muted">1h ago</span>}
-                        />
-            <Divider />
-            <MenuItem
-              className="header-icon-dropdown-item"
-              leftIcon={<i className="material-icons">notifications_none</i>}
-              primaryText="Copy task completed"
-                        />
+
+
           </IconMenu>
         </li>
       </ul>

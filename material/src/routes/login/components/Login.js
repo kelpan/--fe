@@ -35,7 +35,7 @@ class Login extends React.Component {
                     floatingLabelText="Password"
                     type="password"
                     fullWidth
-                    />
+                  />
                 </div>
               </fieldset>
             </form>

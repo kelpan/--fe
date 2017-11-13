@@ -6,6 +6,8 @@ import Responsive from './routes/responsive/'
 import Static from './routes/static/'
 
 
+
+
 const Table = ({ match }) => (
   <div>
     <Route path={`${match.url}/data`} component={Data}/>

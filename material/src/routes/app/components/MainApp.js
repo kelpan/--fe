@@ -49,6 +49,16 @@ let AsyncUI = loadable({
   loading: LoadingComponent
 })
 
+let AsyncPL = loadable({
+  loader: () => import('../routes/pl/'),
+  loading: LoadingComponent
+})
+
+let AsyncHomepage = loadable({
+  loader: () => import('../routes/homepage/'),
+  loading: LoadingComponent
+})
+
 
 class MainApp extends React.Component {
 
@@ -73,6 +83,9 @@ class MainApp extends React.Component {
                   <Route path={`${match.url}/pglayout`} component={AsyncPageLayout} />
                   <Route path={`${match.url}/table`} component={AsyncTable} />
                   <Route path={`${match.url}/ui`} component={AsyncUI} />
+                  <Route path={`${match.url}/pl`} component={AsyncPL} />
+                  <Route path={`${match.url}/homepage`} component={AsyncHomepage} />
+
               </div>
             </div>
 
